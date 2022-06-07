@@ -193,10 +193,10 @@ color: #333;
     align-items: center;
 }
 
-.skills .about .box h4
+.skills .about .box h3
 {
     text-transform: uppercase;
-    color: #848c99;
+    color: #333 ;
     font-weight: 500;
 }
 
@@ -226,6 +226,7 @@ color: #333;
     font-weight: 500;
 
 }
+
 
 .skills .box .parcent
 {
@@ -287,6 +288,18 @@ color: #333;
         grid-template-columns:repeat(1, 1fr);
     }
 
+}
+
+@media (max-width: 640px)
+ {
+    .container {
+            margin: 10px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        .Intireses ul {
+            grid-template-columns: repeat(1, 1fr);
+        }
 }
 
  
