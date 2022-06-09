@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap");
+
 *
 {
     margin: 0;
@@ -300,6 +300,21 @@ color: #333;
         .Intireses ul {
             grid-template-columns: repeat(1, 1fr);
         }
+}
+
+@media (max-width: 600px)
+{
+    .about .box 
+   
+    {
+        flex-direction: column;
+    }
+   .about .box .year_compety
+   {
+       min-width: 150;
+       margin-bottom: 5px;
+   }
+    
 }
 
  
